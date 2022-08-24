@@ -1,0 +1,54 @@
+
+@font-face {
+    font-family: "Manrope";
+    src: local("Manrope"),
+      url("../public/font/Manrope-Regular.ttf") format("truetype");
+    font-weight: normal;
+  }
+.ExperienceSection {
+    background: #F2F2F2;
+    padding: 20px 0;
+}
+.CtaNumber {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 76px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #661CE7;
+}
+.CtaTitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+    opacity: 0.7;
+}
+.ExpCol {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+    .CtaNumber {font-size: 37px;
+        line-height: 45px;}
+        .CtaTitle {font-size: 21px;}
+}
+@media only screen and (max-width: 992px) {
+    .CtaNumber {font-size: 28px;
+        line-height: 32px;}
+        .CtaTitle {font-size: 17px;}
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 767px) {
+}
+@media only screen and (max-width: 567px) {
+}
+/* Responsive end  */
